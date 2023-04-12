@@ -1,0 +1,164 @@
+.mainContainer{
+    margin: auto;
+    width: 85%;
+    height: 1200px;
+    /* border-top: 2px solid purple; */
+    padding-top: -10px;
+    margin-top: 20px;
+    display: flex;
+    
+}
+.leftContainer{
+    width: 70%;
+    height: 100%;
+    
+    
+}
+.rightContainer{
+
+    width: 500vw;
+    height: 125%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.headingArt{
+    
+    width: 450px;
+    font-weight: 1000;
+    font-size: 20px;
+    padding: 10px ;
+    /* margin-bottom: 10px; */
+    margin-top: 100px;
+    margin-left: 550px;
+    
+}
+.headingpara{
+    width: 600px;
+    opacity: 0.5;
+
+}
+
+.top{
+   
+    background-image: url("https://img.freepik.com/free-vector/application-programming-interface-concept-illustration_114360-9135.jpg?w=740&t=st=1681289976~exp=1681290576~hmac=4adfe94ea2502e699c9622fc320403ec99618d6de6a8223225c1f2ae4a46c23a");
+    background-size: 350px;
+    background-repeat: no-repeat;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+    margin-left: -800px;
+    margin-top: 160px;
+    
+}
+
+.cardAarticle{
+    width: 90%;
+    height: 22%;
+    margin-left: -490px;
+    margin-bottom: 18px;
+    display: flex;
+}
+.cardAarticle>img{
+    width: 105%;
+    height: 50%;
+    border-radius: 15px;
+    margin-left: 190%;
+    margin-top: 30px;
+}
+.cardArticlee>img{
+    width: 30%;
+    height: 40%;
+    border-radius: 15px;
+    margin-left: 70%;
+    margin-top: -400px;
+}
+.cardArticleee>img{
+    
+    width: 25%;
+    height: 50%;
+    border-radius: 15px;
+    margin-left: 70%;
+    margin-top: 140px;
+    /* overflow: hidden; */
+    position: relative;
+    top: -180px;
+}
+.cardArticleeee>img{
+    
+    width: 25%;
+    height: 50%;
+    border-radius: 15px;
+    margin-left: 110%;
+    margin-top: -60px;
+    /* overflow: hidden; */
+    position: relative;
+    top: -180px;
+}
+
+
+.discr{
+    width: 55%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.titlDisc{
+    width: 200px;
+    height: 60%;
+   font-size: 13px;
+    /* overflow: hidden; */
+    margin-left: -180px;
+    opacity: 0.5;
+    margin-top: 180px;
+    
+}
+.titleeDisc{
+    width: 300px;
+    height: 60%;
+   font-size: 13px;
+   opacity: 0.5;
+    overflow: hidden;
+    margin-left: 550px;
+    margin-top: -120px;
+    
+}
+.titleeeDisc{
+    
+    width: 250px;
+    height: 60%;
+   font-size: 13px;
+   opacity: 0.5;
+    /* overflow: hidden; */
+    margin-left: 580px;
+    margin-top: -170px;
+    
+}
+.titleeeeDisc{
+    
+    width: 250px;
+    height: 60%;
+   font-size: 13px;
+   opacity: 0.5;
+    /* overflow: hidden; */
+    margin-left: 870px;
+    margin-top: -170px;
+    
+}
+
+
+
+/* Styling for Mobile view adding Media Queries */
+
+@media only screen and (max-width: 600px){
+    .leftContainer{
+        width: 95%;
+    }
+    .ritContainer{
+        display: none;
+    }
+}

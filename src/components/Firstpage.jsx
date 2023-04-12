@@ -1,30 +1,31 @@
 import React from 'react'
+import Login from '../Login';
+
+
+
+
+
 
 const Firstpage = () => {
-
+	
   return (
     <div className='bannerContainer'>
       
         <div className="leftBanner">
-            <h1 className='bannerOneTitle'>Title of Vertical Gallery</h1>
-            <h3 className='secondline'>Travel/November2022</h3>
+           <h1 className='head'><span>Mission Control</span><span className='thee'> for Your APIs</span></h1>
+           {/* <h1 ><span className='the'>The</span> Siren</h1> */}
+           <p className='con'>Seekret's cutting-edge API observability platform provides developers and engineering managers with the insights and resources needed to build test, and publish APIsfaster than ever before</p>
+           <button className='btn' style={{backgroundImage:"linear-gradient(tomato,red)", color:"white",border:"2px solid black",fontSize:"20px",borderRadius:"10px"}} >Download our Brief</button>
+
+           <Login/>
+        
+           
         </div>
 
-        <div className="rightBanner">
-            <div className="rightSubBanner" id='firstSBanner'>
-              
-              <h1 className='firstline'> The Sound loud <br/> You Loved in doomed </h1>
-            <h3 className='secondlin'>Travel/November2022</h3>
-
-              </div>
-            <div className="rightSubBanner" id='secondSBanner'>
-             
-              <h1 className='firstlin'> The Sound loud <br /> You Loved in doomed  </h1>
-            <h3 className='secondli'>Travel/November2022</h3>
-
-              </div>
-        </div>
-    </div>
+        
+    
+      
+          </div>
   )
 }
 

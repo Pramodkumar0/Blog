@@ -10,66 +10,45 @@ const Middle = () => {
     <div className='mainContainer'>
         
         <div className="leftContainer">
-        <h1 className="headingArt">
-          Latest Article
+        <h1 className="headingArttt">
+            The Seekert API Observability Platform
         </h1>
-        <Link className='blogItem-link' to={`/technology/${data[6].id}`}>
-            <div className="cardArticle">
-                    <img src={data[6].image} alt="image not found" />
-                    <div className="discr">
-                        <div className="titleDisc">
-                            {data[6].title}
-                            <br /><br />
-                            <p className="categ"><span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, molestias!</span></p>
-                        </div>
-                       
-                        <h5 className="issueD">Travel:<span>{data[6].date}</span></h5>
-                    </div>
-            </div>
-        </Link>
+        <p className='headingpara'>The Ultimate foundation for managing and maintaining APIs as they advance through the SDLC and beyond</p>
+       
 
-                    <Link className='blogItem-link' to={`/technology/${data[7].id}`}>
-            <div className="cardArticle">
-                    <img src={data[7].image} alt="image not found" />
-                    <div className="discr">
-                        <div className="titleDisc">
-                            {data[7].title}
-                            <br /><br />
-                            <p className="categ"><span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, molestias!</span></p>
-                        </div>
-                       
-                        <h5 className="issueD">Travel: <span>{data[7].date}</span></h5>
-                    </div>
-            </div>
-        </Link>
-        
+                    
         <Link className='blogItem-link' to={`/technology/${data[8].id}`}>
-            <div className="cardArticle">
+            <div className="cardArticlede">
                     <img src={data[8].image} alt="image not found" />
                     <div className="discr">
-                        <div className="titleDisc">
+                        <div className="titleDiscc">
                             {data[8].title}
-                            <br /><br />
-                            <p className="categ"><span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, molestias!</span></p>
+                           
                         </div>
                        
-                        <h5 className="issueD">Travel: <span>{data[8].date}</span></h5>
                     </div>
             </div>
         </Link>
         
         <Link className='blogItem-link' to={`/technology/${data[9].id}`}>
-            <div className="cardArticle">
+            
+            <div className="cardArticleedd">
                     <img src={data[9].image} alt="image not found" />
-                    <div className="discr">
-                        <div className="titleDisc">
+                    <div className="titleeDisccc">
                             {data[9].title}
-                            <br /><br />
-                            <p className="categ"><span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, molestias!</span></p>
+                           
                         </div>
-                      
-                        <h5 className="issueD">Travel:<span>{data[9].date}</span></h5>
-                    </div>
+            </div>
+        </Link>
+
+        <Link className='blogItem-link' to={`/technology/${data[9].id}`}>
+            
+            <div className="cardArticleeeddd">
+                    <img src={data[10].image} alt="image not found" />
+                    <div className="titleeeDiscccc">
+                            {data[10].title}
+                           
+                        </div>
             </div>
         </Link>
         
@@ -77,12 +56,8 @@ const Middle = () => {
         </div>
         <div className="rightContainer">
 
-            <div className="top">
-                Advertisments
-            </div>
-            <div className="top">
-                Advertisments
-            </div>
+            <div className="topper"></div>
+           
         </div>
         
         

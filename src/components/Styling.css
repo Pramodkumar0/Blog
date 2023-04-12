@@ -59,15 +59,40 @@ input,button{
 }
 
 .leftBanner{
+    color: white;
     height: 95%;
-    width: 65%;
+    width: 98%;
+    background-color: rgb(35, 35, 35);
     position: relative;
     margin: 10px;
     border-radius: 10px;
-    background-image: url('https://img.traveltriangle.com/blog/wp-content/uploads/2021/09/Historical-Places-in-the-World1.jpg');
     background-size: cover;
     /* background-position: center; */
     /* background-repeat: no-repeat; */
+}
+.head{
+
+    color: tomato;
+    margin-left: 30vw;
+    font-size: 35px;
+}
+.thee{
+    color: white;
+    /* margin-left: 30vw; */
+    font-size: 35px;
+}
+.btn{
+    font-size: 25px;
+    margin-left: 530px;
+   border: 5px solid black;
+}
+.con{
+    width: 690px;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 300px;
+    opacity: 0.8;
 }
 
 .bannerOneTitle{
@@ -144,14 +169,40 @@ input,button{
 /* LatestArtciles */
 
 .headLine{
-    margin-left: 1%;
-    border-bottom: 2px solid red;
-    width: 230px;
-    padding: 10px ;
-    margin-bottom: 2rem;
+    margin-left: 18%;
+    width: 890px;
+    padding-top: -150px ;
+    margin-bottom: 3rem;
+    font-weight: 1000;
     
 }
 
+.para{
+    font-size: 13px;
+    width:79%;
+    line-height: 20px;
+    margin-top: -30px;
+    margin-left: 15%;
+    
+}
+.scndLine{
+    margin-left: 38%;
+    padding-top: 23% ;
+    margin-bottom: 1rem;
+    font-weight: 1000;
+    
+}
+.paraa{
+    font-size: 15px;
+    width:50%;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-left: 25%;
+    line-height: 25px;
+    margin-bottom: 5%;
+    
+}
 .blogItem-link{
     
     color:black  ;
@@ -179,7 +230,9 @@ input,button{
 
     .linkD{
         margin-bottom: 10px;
+        
     }
+    
 
     .bannerContainer{
         flex-direction: column;

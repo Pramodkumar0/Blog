@@ -1,33 +1,32 @@
 
-.carddContainer{
-    width: 90%;
-    min-height: 25rem;    
+.cardsContainer{
+    width: 70%;
+    min-height: 20rem;    
     margin: auto;
     display: flex;
     justify-content: space-around;
     flex: 1;
 }
 
-.cardd{
-    border: 5px solid white;
-    border-radius: 20px;
-    /* box-shadow: 3px 3px 4px red; */
-    opacity: 0.7;
-    width: 20rem;
-    height: 25rem;
+.cards{
+
+    margin-top: 10px;
+    margin-left: 30vh;
+    width: 20%;
+    height: 35%;
     
 }
-.cardd> img{
-
-    height: 60%;
+.cards> img{
+    height: 30%;
     width: 100%;
     border-radius: 15px;
 }
-.cardTitle{
+.cardsTitle{
   
-    height: 28%;
-    overflow: hidden;
+    /* height: 28%; */
+    /* overflow: hidden; */
     margin-top: 10px;
+    margin-left: -35px;
     text-align: center;
     font-weight: 400%;
     
@@ -37,11 +36,9 @@
     height: 28%;
     overflow: hidden;
     margin-top: -50px;
-    margin-left: 30px;
-    width: 230px;
+    width: 300px;
     text-align: center;
-    font-size: 15px;
-
+    font-size: 20px;
     
 }
 .dateTitle

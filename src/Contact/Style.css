@@ -1,0 +1,266 @@
+.section6{
+    /* background-color: #d74949; */
+    width:100%;
+    height:500px;
+    /* margin-top: -430px; */
+}
+
+.lastHd{
+    font-family: 'Fascinate', cursive;
+    font-family: 'Manrope', sans-serif;
+    font-size:2rem;
+    font-weight:bolder;
+    color: black;
+    position: relative;
+    top:-40vw;
+    text-align: center;
+}
+    
+.line6{
+    width:200px;
+    /* border:3px solid #FCA738; */
+    background-color: #FCA738;
+    position: relative;
+    top:-180vw;
+    /* margin: 20vw; */
+}
+
+.blok{
+    
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 50%; */
+    /* background-color: #09BEAD; */
+    /* height:500px;
+    width: 500px; */
+}
+
+.blok1{
+    background-image: url("https://img.freepik.com/free-vector/e-wallet-concept-illustration_114360-7561.jpg?w=740&t=st=1681246404~exp=1681247004~hmac=70dbe22c0f2042cd0ab2a3f96bfa1053b75a71914f499a8a103c0c54631191e6");
+    background-size: 540px;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 800px;
+    /* background-color: white; */
+    position: relative;
+    left: 170px;
+    top: -530px;
+    /* left:15vw;
+    bottom:237vw; */
+}
+
+#d1{
+    font-family: 'Manrope', sans-serif;
+    font-size:1.3rem;
+    color: #105652;
+    font-weight: bold;
+    position: absolute;
+    left:5vw;
+    top:5vw;
+}
+#d2{
+    font-family: 'Manrope', sans-serif;
+    font-weight: lighter;
+    color: #333333;
+    position: absolute;
+    left:5vw;
+    top:8vw;
+    padding-right:6vw;
+
+}
+
+#d3{
+    /* background-image: url("Snip20220625_1.png"); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 35px;
+    height:35px;
+    position:absolute;
+    top:15vw;
+    left:5vw;
+}
+
+#d5{
+    /* background-image: url("phone\ \(1\)@2x.png"); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25px;
+    height:25px;
+    position:absolute;
+    top:19vw;
+    left:5vw;
+}
+
+#d7{
+    /* background-image: url("marker@2x.png"); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 27px;
+    height:37px;
+    position:absolute;
+    top:23vw;
+    left:5vw;
+}
+
+#d4{
+    font-family: 'Manrope', sans-serif;
+    color: #858585;
+    position:absolute;
+    top:15.5vw;
+    left:9vw;
+    font-size: small;
+}
+
+#d6{
+    font-family: 'Manrope', sans-serif;
+    color: #858585;
+    position:absolute;
+    top:19vw;
+    left:9vw;
+    font-size: small;
+}
+
+#d8{
+    font-family: 'Manrope', sans-serif;
+    color: #858585;
+    position:absolute;
+    top:23.8vw;
+    left:9vw;
+    font-size: small;
+}
+
+.blok2{
+    width:38%;
+    height: 600px;
+    background-color:white;
+    position: relative;
+    left: 150px;
+    top: -520px;
+    /* bottom:-215vw; */
+
+}
+
+#bk1{
+    font-family: 'Manrope', sans-serif;
+    font-size:1.3rem;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    left:6vw;
+    top:5vw;
+}
+
+#bk2{
+    font-family: 'Manrope', sans-serif;
+    color: #333333;
+    font-size: small;
+    position: absolute;
+    left:6vw;
+    top:8vw;
+
+}
+
+#star1{
+    color: #EA3E3E;
+}
+
+#bk3{
+    border: 1px solid #E0E0E0;
+    width:300px;
+    height:25px;
+    border-radius:6px;
+    position: absolute;
+    left:5.8vw;
+    top:9.4vw;
+}
+
+
+#bk4{
+    font-family: 'Manrope', sans-serif;
+    color: #333333;
+    font-size: small;
+    position: absolute;
+    left:6vw;
+    top:13vw;
+
+}
+
+#bk5{
+    border: 1px solid #E0E0E0;
+    width:300px;
+    height:25px;
+    border-radius:6px;
+    position: absolute;
+    left:5.8vw;
+    top:14.5vw;
+}
+
+#bk6{
+    font-family: 'Manrope', sans-serif;
+    color: #333333;
+    font-size: small;
+    position: absolute;
+    left:6vw;
+    top:18vw;
+
+}
+
+#bk7{
+    border: 1px solid #E0E0E0;
+    width:300px;
+    height:25px;
+    border-radius:6px;
+    position: absolute;
+    left:5.8vw;
+    top:19.5vw;
+}
+
+#bk8{
+    font-family: 'Manrope', sans-serif;
+    color: #333333;
+    font-size: small;
+    position: absolute;
+    left:6vw;
+    top:23vw;
+
+}
+
+#bk9{
+    border: 1px solid #E0E0E0;
+    width:300px;
+    height:80px;
+    border-radius:6px;
+    position: absolute;
+    left:5.8vw;
+    top:24.5vw;
+}
+
+#bk10{
+    width: 250px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    position: absolute;
+    left:6vw;
+    top:32vw;
+}
+#lastB{
+    width: 100vw;
+    height: 50px;
+    position: absolute;
+    top: 4600px;
+    /* left:5vw; */
+    text-align: center;
+    /* background-color: #FBF3E4; */
+    color: black;
+    font-family: 'Manrope', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}

@@ -7,51 +7,51 @@ const Footer = () => {
 
   const [data] = useContext(store);
   return (
-<div className='cardContainer'>
+<div className='carddContainer'>
        
 
 <Link className='blogItem-link' to={`/technology/${data[13].id}`}>
-       <div className='card'>
+       <div className='cardd'>
             <img src={data[13].image} alt="not found" className='cardImg' />
-            <div className="cardTitle">
+            <div className="carddTitle">
                 <h3 className="title">
-                {data[13].title}
+                {data[13].title}    
                 </h3>
             </div>
-            <h5 className="dateTitle">
-              release date : <span> {data[13].date}</span>
-            </h5>
+            <p className="carddPara">
+                {data[13].content}    
+                </p>
         </div>
     </Link>
 
 
 
     <Link className='blogItem-link' to={`/technology/${data[14].id}`}>
-       <div className='card'>
-            <img src={data[13].image} alt="not found" className='cardImg' />
+       <div className='cardd'>
+            <img src={data[14].image} alt="not found" className='cardImg' />
             <div className="cardTitle">
                 <h3 className="title">
                 {data[14].title}
                 </h3>
             </div>
-            <h5 className="dateTitle">
-              release date : <span> {data[14].date}</span>
-            </h5>
+            <p className="cardPara">
+                {data[14].content}    
+                </p>
         </div>
     </Link>
     
 
     <Link className='blogItem-link' to={`/technology/${data[15].id}`}>
-       <div className='card'>
-            <img src={data[13].image} alt="not found" className='cardImg' />
+       <div className='cardd'>
+            <img src={data[16].image} alt="not found" className='cardImg' />
             <div className="cardTitle">
                 <h3 className="title">
-                {data[15].title}
+                {data[16].title}
                 </h3>
             </div>
-            <h5 className="dateTitle">
-              release date : <span> {data[15].date}</span>
-            </h5>
+            <p className="cardPara">
+                {data[13].content}    
+                </p>
         </div>
     </Link>
 
